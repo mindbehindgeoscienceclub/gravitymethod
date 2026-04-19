@@ -31,3 +31,7 @@ Fungsi linregress mengeluarkan 5 output sekaligus (tuple) yang ditampung dalam v
 - fig: Objek figure utama (kanvas dasar) tempat grafik akan digambar.
 - ax1: Objek axes (sumbu) pertama yang menampung "Grafik 1", yaitu scatter plot untuk regresi Metode Parasnis.
 - ax2: Objek axes (sumbu) kedua yang menampung "Grafik 2", yaitu line plot untuk melihat profil persebaran Anomali Bouguer Sederhana (ABS) di setiap titik.
+
+6. Define (def)
+- def hitung_parasnis_abs(nama_file) : Def disini sebagai tombol pembuat mesin pengolah, dan "hitung_parasnis_abs sebagai bahan data untuk diolah dan kemudian kode-kode di baris bawahnya yang menjorok kedalam berfungsi sebagai proses kerja yang akan berlangsung.
+- return : Setelah pengolahan selesai, return berfungsi untuk mengeluarkan hasilnya (berupa tabel data bersih format .CSV dan nilai densitas).
